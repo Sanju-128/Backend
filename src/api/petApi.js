@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://petconnect-4.onrender.com/api';
 
 // Create axios instance
 const api = axios.create({
