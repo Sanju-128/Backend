@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const API_URL = 'https://petconnect-4.onrender.com';
+const API_BASE_URL = "http://localhost:4000"; // Change from 3000 to 4000
 
 // Create axios instance
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: API_BASE_URL, // Now it will send requests to port 4000
   headers: {
     'Content-Type': 'application/json'
   }
